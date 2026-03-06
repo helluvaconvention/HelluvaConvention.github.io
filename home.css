@@ -1,0 +1,187 @@
+/* --- Global Styles --- */
+body {
+    font-family: sans-serif;
+    background-color: #414141;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #414141;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+div.banner {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 1250px;
+  background-image: url("Graphics/Images/hella_crossover.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 10px;
+}
+
+div.banner > div {
+  background-color: #c30000;
+  padding: 10px;
+  border: 5px solid black;
+}
+
+div.single {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+div.single > div {
+  background-color: #c30000;
+  padding: 10px;
+  border: 3px solid black;
+  width: 50%;
+}
+
+div.triple {
+  display: flex;
+  /* Show the flex items horizontally */
+  flex-direction: row;
+}
+
+div.triple > div {
+  margin: 10px;
+  background-color: #c30000;
+  width: 33%;
+  height: 150px;
+  text-align: center;
+  border: 3px solid black;
+}
+  
+@media screen and (max-width:2400px) {
+  div.banner {
+    height: 1200px;
+  }
+  
+@media screen and (max-width:2300px) {
+  div.banner {
+    height: 1150px;
+  }
+
+@media screen and (max-width:2200px) {
+  div.banner {
+    height: 1100px;
+  }
+  
+@media screen and (max-width:2100px) {
+  div.banner {
+    height: 1050px;
+  }
+  
+@media screen and (max-width:2000px) {
+  div.banner {
+    height: 1000px;
+  }
+  
+@media screen and (max-width:1900px) {
+  div.banner {
+    height: 950px;
+  }
+  
+@media screen and (max-width:1800px) {
+  div.banner {
+    height: 900px;
+  }
+
+@media screen and (max-width:1700px) {
+  div.banner {
+    height: 850px;
+  }
+
+@media screen and (max-width:1600px) {
+  div.banner {
+    height: 800px;
+  }
+
+@media screen and (max-width:1500px) {
+  div.banner {
+    height: 750px;
+  }
+
+@media screen and (max-width:1400px) {
+  div.banner {
+    height: 700px;
+  }
+
+@media screen and (max-width:1300px) {
+  div.banner {
+    height: 650px;
+  }
+
+@media screen and (max-width:1200px) {
+  div.banner {
+    height: 600px;
+  }
+
+@media screen and (max-width:1100px) {
+  div.banner {
+    height: 550px;
+  }
+
+@media screen and (max-width:1000px) {
+  div.banner {
+    height: 500px;
+  }
+
+@media screen and (max-width:900px) {
+  div.banner {
+    height: 450px;
+  }
+
+@media screen and (max-width:800px) {
+  div.banner {
+    height: 400px;
+  }
+  
+@media screen and (max-width:700px) {
+  div.banner {
+    height: 350px;
+  }
+
+/* Use media query and show the flex items vertically if screen width is less than 600px */
+@media screen and (max-width:600px) {
+  div.banner {
+    height: 300px;
+  }
+  div.triple {
+    flex-direction: column;
+  }
+  div.triple > div {
+    margin: 10px;
+    background-color: #c30000;
+    width: 96%;
+    text-align: center;
+  }
+  
+}
+
+div.footer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+div.footer > div {
+  margin: 10px;
+}
