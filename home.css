@@ -1,4 +1,9 @@
 /* --- Global Styles --- */
+@font-face {
+  font-family: "Assassin Ninja"; /* set name */
+  src: url(sansation_light.woff); /* url of the font */
+}
+
 body {
     font-family: "Trebuchet MS", sans-serif;
     background-color: #414141;
