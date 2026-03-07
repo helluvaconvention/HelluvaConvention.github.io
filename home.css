@@ -1,6 +1,6 @@
 /* --- Global Styles --- */
 @font-face {
-  font-family: "Assassin Ninja"; /* set name */
+  font-family: AssassinNinja; /* set name */
   src: url(AssassinNinja-KV7eW.ttf); /* url of the font */
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    font-family: "Assassin Ninja", fantasy;
+    font-family: AssassinNinja, fantasy;
 }
 
 header {
