@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+h1 {
+    font-family: fantasy;
+}
+
 header {
   display: flex;
   flex-direction: row;
