@@ -72,6 +72,7 @@ div.triple {
 
 div.triple > div {
   margin: 20px;
+  padding: 10px;
   background-color: #c30000;
   width: 33%;
   text-align: center;
