@@ -71,7 +71,7 @@ div.triple {
 }
 
 div.triple > div {
-  margin: 10px;
+  margin: 20px;
   background-color: #c30000;
   width: 33%;
   text-align: center;
